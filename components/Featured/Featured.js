@@ -20,6 +20,45 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
+						<Link href="https://github.com/jayfallon/portfolio-2019">
+							<a target="_blank" rel="noopener">
+								This Site
+							</a>
+						</Link>
+					</h4>
+					<div className="featured__grid--onesie">
+						<img src="./static/featured/jayfallon-01.png" alt="Jay Fallon's 2019 Portfolio Audit Results" />
+					</div>
+					<p>
+						I have to be honest, doing my portfolio site produces high levels of anxiety. My personal belief
+						is that they rarely convey a true sense of the author's experience of skill level. Everyone
+						else's, yes. But not my own. Unless it's that I'm always all over the place, which is probably
+						the case.
+					</p>
+					<p>
+						For this site I wanted to get as close to all{" "}
+						<Link href="https://developers.caffeina.com/how-to-get-a-100-lighthouse-score-with-nextjs-c2fa4d35a90b">
+							<a target="_blank" rel="noopener">
+								100's on the Chrome Audit for PWA's
+							</a>
+						</Link>{" "}
+						and I'm almost there. My site is hosted on Zeit's Now so I'm somewhat limited as to what I can
+						do from a hosting perspective in terms of performance, but I'm content for now with writing
+						accessible code and following best practices.
+					</p>
+					<p>
+						The site is written using React.js, JSX, Styled Components, Next.js and it's based off of the
+						Next.js PWA Boilerplate. All code is responsive but I'm sure there'll be a device, OS or browser
+						out there that refuses to display properly so I'll have to figue that out.{" "}
+						<Link href="https://github.com/jayfallon/portfolio-2019">
+							<a target="_blank" rel="noopener">
+								The GitHub repo is here.
+							</a>
+						</Link>
+					</p>
+				</article>
+				<article>
+					<h4>
 						<Link href="https://sapphire-maritza.now.sh">
 							<a title="Rewards Program" target="_blank" rel="noreferrer">
 								Rewards Program
