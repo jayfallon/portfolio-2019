@@ -27,7 +27,12 @@ const Featured = () => (
 						</Link>
 					</h4>
 					<div className="featured__grid--onesie">
-						<img src="./static/featured/jayfallon-01.png" alt="Jay Fallon's 2019 Portfolio Audit Results" />
+						<div className="featured__grid--item">
+							<img
+								src="./static/featured/jayfallon-01.png"
+								alt="Jay Fallon's 2019 Portfolio Audit Results"
+							/>
+						</div>
 					</div>
 					<p>
 						I have to be honest, doing my portfolio site produces high levels of anxiety. My personal belief
