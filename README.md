@@ -1,4 +1,4 @@
-# Jay Fallon - Portfoilio 2019
+# Jay Fallon - Portfolio 2019
 
 An update to my portfolio as a device-responsive Progressive Web Application.
 
