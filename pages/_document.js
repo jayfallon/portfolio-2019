@@ -46,7 +46,7 @@ export default class MyDocument extends Document {
 						rel="stylesheet"
 						href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css"
 						integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG"
-						crossorigin="anonymous"
+						crossOrigin="anonymous"
 					/>
 
 					{/* SEO: App description for search-engine optimization */}
