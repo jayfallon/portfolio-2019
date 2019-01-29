@@ -42,6 +42,11 @@ const FeaturedStyles = styled.main`
 		a {
 			color: ${props => props.theme.globalText};
 			font-size: 1.7rem;
+			@media (min-width: 900px) {
+				padding-top: 1.6rem;
+				font-size: 1.9rem;
+				line-height: 1.6;
+			}
 		}
 	}
 	section {
@@ -64,6 +69,11 @@ const FeaturedStyles = styled.main`
 		padding-top: 0.8rem;
 		font-size: 1.6rem;
 		line-height: 1.5;
+		@media (min-width: 900px) {
+			padding-top: 1.6rem;
+			font-size: 1.9rem;
+			line-height: 1.6;
+		}
 	}
 
 	.featured__grid {
