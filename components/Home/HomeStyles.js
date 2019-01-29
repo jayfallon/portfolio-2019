@@ -53,6 +53,20 @@ const HomeStyles = styled.main`
 		padding-top: 0.8rem;
 		font-size: 1.6rem;
 		line-height: 1.5;
+		:last-child {
+			padding-bottom: 4rem;
+			@media (min-width: 900px) {
+				padding-top: 1.6rem;
+				padding-bottom: 8rem;
+				font-size: 1.9rem;
+				line-height: 1.6;
+			}
+		}
+		@media (min-width: 900px) {
+			padding-top: 1.6rem;
+			font-size: 1.9rem;
+			line-height: 1.6;
+		}
 	}
 	p.title {
 		font-weight: 700;

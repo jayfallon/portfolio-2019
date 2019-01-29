@@ -53,6 +53,11 @@ const ResumeStyles = styled.main`
 		padding-top: 0.8rem;
 		font-size: 1.6rem;
 		line-height: 1.5;
+		@media (min-width: 900px) {
+			padding-top: 1.6rem;
+			font-size: 1.9rem;
+			line-height: 1.6;
+		}
 	}
 	p.title {
 		font-weight: 700;

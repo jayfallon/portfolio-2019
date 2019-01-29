@@ -54,6 +54,11 @@ const AboutStyles = styled.main`
 		padding-top: 0.8rem;
 		font-size: 1.6rem;
 		line-height: 1.5;
+		@media(min-width: 900px) {
+			padding-top: 1.6rem;
+			font-size: 1.9rem;
+			line-height: 1.6;
+		}
 	}
 	.about__grid {
 		margin: 3rem auto;
