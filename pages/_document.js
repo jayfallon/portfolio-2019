@@ -36,10 +36,19 @@ export default class MyDocument extends Document {
 					<link rel="stylesheet" href="https://use.typekit.net/izw8rob.css" />
 
 					{/* Global Stylesheet */}
-					<link rel="stylesheet" href="./static/globalStyles.css" />
+					{/* <link rel="stylesheet" href="./static/globalStyles.css" /> */}
+					<link
+						rel="stylesheet"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/css/globalStyles.css"
+					/>
 
 					{/* NProgress Stylesheet */}
-					<link rel="stylesheet" type="text/css" href="./static/nprogress.css" />
+					{/* <link rel="stylesheet" type="text/css" href="./static/nprogress.css" /> */}
+					<link
+						rel="stylesheet"
+						type="text/css"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/css/nprogress.css"
+					/>
 
 					{/* Font Awesome Stylesheet */}
 					<link
