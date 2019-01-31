@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
 					<meta name="theme-color" content="#fff" />
 
 					{/* Progressive Web App: Provide manifest file for metadata */}
-					<link rel="manifest" href="https://s3.amazonaws.com/jayfallon-portfolio-2019/manifest.json" />
+					<link rel="manifest" href="./static/manifest.json" />
 
 					{/* Adobe Typekit fonts */}
 					<link rel="stylesheet" href="https://use.typekit.net/izw8rob.css" />
@@ -75,11 +75,31 @@ export default class MyDocument extends Document {
 					{/* Bonus: Have app icon and splash screen for PWAs saved to homescreen on iOS devices */}
 					<meta name="apple-mobile-web-app-capable" content="yes" />
 					<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-					<link rel="apple-touch-icon" sizes="57x57" href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-57.png" />
-					<link rel="apple-touch-icon" sizes="72x72" href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-72.png" />
-					<link rel="apple-touch-icon" sizes="114x114" href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-114.png" />
-					<link rel="apple-touch-icon" sizes="144x144" href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-144.png" />
-					<link rel="apple-touch-icon" sizes="512x512" href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-512.png" />
+					<link
+						rel="apple-touch-icon"
+						sizes="57x57"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-57.png"
+					/>
+					<link
+						rel="apple-touch-icon"
+						sizes="72x72"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-72.png"
+					/>
+					<link
+						rel="apple-touch-icon"
+						sizes="114x114"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-114.png"
+					/>
+					<link
+						rel="apple-touch-icon"
+						sizes="144x144"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-144.png"
+					/>
+					<link
+						rel="apple-touch-icon"
+						sizes="512x512"
+						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/icon-512.png"
+					/>
 					<link
 						href="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/splash-2048.png"
 						media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
