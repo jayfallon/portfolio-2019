@@ -28,15 +28,14 @@ const Featured = () => (
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
-						<Link href="https://github.com/jayfallon/portfolio-2019">
-							<a target="_blank" rel="noopener">
-							<img
-								src="./static/featured/jayfallon-01.png"
-								alt="Jay Fallon's 2019 Portfolio Audit Results"
-							/>
-							</a>
-						</Link>
-							
+							<Link href="https://github.com/jayfallon/portfolio-2019">
+								<a target="_blank" rel="noopener">
+									<img
+										src="./static/featured/jayfallon-01.png"
+										alt="Jay Fallon's 2019 Portfolio Audit Results"
+									/>
+								</a>
+							</Link>
 						</div>
 					</div>
 					<p>
