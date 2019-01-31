@@ -5,8 +5,8 @@
 	"main": "server/index.js",
 	"scripts": {
 		"build": "next build",
-		"export": "next export",
-		"deploy": "npm run build && npm run export",
+		"export": "npm run build && next export",
+		"deploy": "now && now alias",
 		"dev": "next",
 		"start": "next start"
 	},
@@ -29,7 +29,6 @@
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
 		"react-modal": "^3.8.1",
-		"serverless-apigw-binary": "^0.4.4",
 		"serverless-domain-manager": "^2.6.13",
 		"styled-components": "^4.1.3"
 	},
