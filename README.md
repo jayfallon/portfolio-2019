@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43e18337-0aa6-4b0f-8341-3d424227693b/deploy-status)](https://app.netlify.com/sites/hopeful-joliot-ccc9fc/deploys)
+
 # Jay Fallon - Portfolio 2019
 
 An update to my portfolio as a device-responsive Progressive Web Application.
