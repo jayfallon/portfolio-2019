@@ -66,10 +66,10 @@ const Resume = () => (
 					<p className="description">
 						As a contracted UI/UX developer for a Syrinx client, Jay is responsible for providing
 						leadership, technical direction, mentoring, training and support for a fifty-person research
-						department focused on enhancing Bose’s future capabilities in personalized customer experience.
-						In this role, Jay provides not only daily deliverable work but also works across teams and
-						disciplines to design, test and provide tangible results for further iterations via web
-						applications, landing pages and emails.
+						department focused on enhancing the client’s future capabilities in personalized customer
+						experience. In this role, Jay provides not only daily deliverable work but also works across
+						teams and disciplines to design, test and provide tangible results for further iterations via
+						web applications, landing pages and emails.
 					</p>
 				</article>
 				<article>

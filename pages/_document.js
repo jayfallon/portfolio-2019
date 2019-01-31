@@ -110,6 +110,7 @@ export default class MyDocument extends Document {
 					<link rel="icon" type="image/png" href="./static/graphics/favicon.png" />
 				</Head>
 				<body>
+					<noscript>You need to enable JavaScript to run this app.</noscript>
 					<Main />
 					<NextScript />
 				</body>
