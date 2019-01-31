@@ -14,7 +14,7 @@ const Resume = () => (
 					development for a list of clients that includes large enterprises, small businesses and start-up
 					ventures. Jay's interests lie in customer focused application design and development, rapid and
 					iterative prototyping, user-centric design and testing methodologies, the responsive experience and
-					courseware design and development.
+					courseware design production.
 				</p>
 			</section>
 			<section>
@@ -64,11 +64,12 @@ const Resume = () => (
 					<p className="period">June 2018 - Present</p>
 					<p className="title">User Experience Designer and Developer.</p>
 					<p className="description">
-						As a UI/UX developer for a Syrinx client, Jay is responsible for providing technical direction,
-						training and support for a fifty-person research department focused on enhancing the client's
-						future capabilities in personalized customer experience. In this role, Jay provides not only
-						daily deliverable work but also works across teams and disciplines to design, test and provide
-						tangible results for further iterations via web applications, landing pages and emails.
+						As a contracted UI/UX developer for a Syrinx client, Jay is responsible for providing
+						leadership, technical direction, mentoring, training and support for a fifty-person research
+						department focused on enhancing Bose’s future capabilities in personalized customer experience.
+						In this role, Jay provides not only daily deliverable work but also works across teams and
+						disciplines to design, test and provide tangible results for further iterations via web
+						applications, landing pages and emails.
 					</p>
 				</article>
 				<article>
@@ -96,9 +97,11 @@ const Resume = () => (
 					<p className="period">March 2014 – June 2016</p>
 					<p className="title">User Experience Designer and Developer.</p>
 					<p className="description">
-						In addition to creating an in-house CSS framework and reusable component library, Jay was also
-						tasked with providing design and development on multiple Cengage projects that included legacy
-						code conversion, cross-platform CSS standardization, component design and user testing.
+						Created an in-house CSS framework and reusable component library, provided design direction and
+						development on multiple Cengage projects that included legacy code conversion, cross-platform
+						CSS standardization, component design and user testing. In addition to his day to day
+						responsibilities, Jay worked alongside senior management to define design and technical
+						requirements for future platform releases.
 					</p>
 				</article>
 				<article>
