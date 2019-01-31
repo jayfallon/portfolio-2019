@@ -8,14 +8,51 @@ const Resume = () => (
 		<Header />
 		<ResumeStyles>
 			<section>
-				<h2>Summary of Experience</h2>
+				<h2>Summary</h2>
 				<p>
 					Jay Fallon is a User Experience professional with years of experience in product design and
 					development for a list of clients that includes large enterprises, small businesses and start-up
-					ventures. Jay's interests lie in mobile application development, rapid and iterative prototyping,
-					user-centric design and testing methodologies, the responsive experience and gesture-based
-					navigation.
+					ventures. Jay's interests lie in customer focused application design and development, rapid and
+					iterative prototyping, user-centric design and testing methodologies, the responsive experience and
+					courseware design and development.
 				</p>
+			</section>
+			<section>
+				<h2>Technical Skills</h2>
+				<p>
+					User experience design, interaction design, information architecture, usability testing, front-end
+					development to include modern CSS, HTML, React (React, React Native, Next.js, Gatsby.js), AngularJS,
+					GraphQL, Node/Express, JSX, Jade/Pug, Styled Components, PostCSS, Sass/Scss, LESS, Stylus, Git,
+					responsive design, Python, Ruby/Rails, Java-based frameworks; audio-visual creation and design to
+					include Sketch, InVision, OmniGraffle, Framer, Adobe Premiere, After Effects, Illustrator, Photoshop
+					and Audition. Agile methodologies. Fluent in English and Spanish.
+				</p>
+			</section>
+			<section>
+				<h2>Education</h2>
+				<article>
+					<h3>
+						<span>Harvard University Extension School</span>
+						<span>Cambridge, MA</span>
+					</h3>
+					<p className="period">Master of Liberal Arts, Digital Design, expected May 2019</p>
+					<p className="description">
+						Concentration in Digital Design, with coursework in information systems, software development,
+						instructional design and digital production.
+					</p>
+				</article>
+				<article>
+					<h3>
+						<span>Northeastern University</span>
+						<span>Boston, MA</span>
+					</h3>
+					<p className="period">Bachelor of Science in Business Administration, June 1998</p>
+					<p className="description">
+						Majored in International Business and Finance. Completed cooperative education assignments at
+						Boston’s Better Snacks, FMRC and PictureTel with learning opportunities and responsibilities in
+						operations, marketing, technical documentation and internationalization.
+					</p>
+				</article>
 			</section>
 			<section>
 				<h2>Details Of Experience</h2>
@@ -112,49 +149,6 @@ const Resume = () => (
 						I also have a soft spot for early-stage startups and I've worked either for or with Formworx,
 						eGrad, MallNetworks, Rapid7, Gobi, Wis.dm, Drync, FiftyThree, MineralTree, StyleMePretty and
 						RapidMiner in some form or another.
-					</p>
-				</article>
-			</section>
-			<section>
-				<h2>Education</h2>
-				<article>
-					<h3>
-						<span>Master of Liberal Arts, Extension Studies</span>
-						<span>Harvard University, Cambridge MA</span>
-					</h3>
-					<p className="period">January, 2017 - May, 2019 (Expected)</p>
-					<p className="status">Degree Candidate</p>
-					<p className="description">
-						Concentration in Digital Media Design, performing coursework and research in audio-visual
-						creation and production, usability research and design, courseware development, programming,
-						interaction design and information architecture, along with front and back end development.
-					</p>
-				</article>
-				<article>
-					<h3>
-						<span>Bachelor of Science in Business Administration</span>
-						<span>Northeastern University, Boston, MA</span>
-					</h3>
-					<p className="period">September, 1993 - June, 1998</p>
-					<p className="description">
-						Majored in International Business and Finance. Completed cooperative education assignments at
-						Boston’s Better Snacks, FMRC and PictureTel with learning opportunities and responsibilities in
-						operations, marketing, technical documentation and internationalization.
-					</p>
-				</article>
-			</section>
-			<section>
-				<h2>Military Service</h2>
-				<article>
-					<h3>United States Marine Corps</h3>
-					<p className="period">April, 1988 - August, 1993</p>
-					<p className="title">Infantry Rifleman (0311) &amp; Security Guard (8151).</p>
-					<p className="status">Sergeant (E-5), Honorable Dishcharge</p>
-					<p className="description">
-						Served with Marine Detachments aboard USS Enterprise CVN-65 and USS Eisenhower CVN-69 while a
-						member of Marine Corps Security Forces. Subsequently assigned to I MEF in Saudi Arabia during
-						Operation Desert Storm and ending his enlistment with 3rd Battalion, 2nd Marine Regiment in Camp
-						Lejeune, NC.
 					</p>
 				</article>
 			</section>
