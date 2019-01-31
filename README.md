@@ -18,7 +18,7 @@ Must have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) a
 
 1. `git clone https://github.com/jayfallon/portfolio-2019.git`
 2. `npm i`
-3. Replace all images in `./static/graphics/` with your desired app icons, splash screens, and thumbnail for social sharing. If you have Sketch, you can use the artboards included in `./graphics.sketch`. Ensure that all replacement graphics include the same filenames, file type, and dimensions.
+3. Replace all images in `https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/` with your desired app icons, splash screens, and thumbnail for social sharing. If you have Sketch, you can use the artboards included in `./graphics.sketch`. Ensure that all replacement graphics include the same filenames, file type, and dimensions.
 
 ### Run
 

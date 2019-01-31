@@ -3,7 +3,7 @@ import styled from "styled-components";
 const LogoStyles = styled.h1`
 	display: flex;
 	a {
-		background-image: url("./static/graphics/jayfallon-logo.svg");
+		background-image: url("https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/jayfallon-logo.svg");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: 20rem;
