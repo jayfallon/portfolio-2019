@@ -13,7 +13,7 @@ const Home = props => (
 					<h3>My name is Jay Fallon and I am a User Experience Engineer.</h3>
 					<div className="home__grid">
 						<div className="home__grid--item">
-							<img src="./static/graphics/work.jpg" alt="Meaningful Work" />
+							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/graphics/work.jpg" alt="Meaningful Work" />
 						</div>
 					</div>
 					<p>
