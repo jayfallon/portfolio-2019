@@ -15,11 +15,11 @@ const Footer = props => (
 			<div className="footer__block contact__elem">
 				<ul>
 					<li>
-						<i className="far fa-at" />
-					</li>
-					<li>
 						<Link href="mailto:jayfallon@gmail.com">
-							<a>jayfallon@gmail.com</a>
+							<a>
+								<i className="far fa-at" />
+								<span>jayfallon@gmail.com</span>
+							</a>
 						</Link>
 					</li>
 				</ul>
