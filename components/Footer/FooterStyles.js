@@ -65,9 +65,19 @@ const FooterStyles = styled.footer`
 				align-items: center;
 			}
 
-			i {
-				color: ${props => props.theme.globalText};
-				font-size: 3rem;
+			a {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+
+				i {
+					font-size: 3rem;
+				}
+				span {
+					margin-top: 0.5rem;
+					font-size: 1.6rem;
+				}
 			}
 		}
 
