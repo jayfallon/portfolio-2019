@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { initGA, logPageView } from "../utils/analytics";
 import { ThemeProvider } from "styled-components";
 
 const theme = {
@@ -17,6 +18,13 @@ const theme = {
 };
 
 class Page extends Component {
+	componentDidMount() {
+		if (!window.GA_INITIALIZED) {
+			initGA();
+			window.GA_INITIALIZED = true;
+		}
+		logPageView();
+	}
 	render() {
 		return (
 			<ThemeProvider theme={theme}>
