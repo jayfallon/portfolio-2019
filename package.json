@@ -28,6 +28,7 @@
 		"prop-types": "^15.6.2",
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
+		"react-ga": "^2.5.7",
 		"react-modal": "^3.8.1",
 		"serverless-domain-manager": "^2.6.13",
 		"styled-components": "^4.1.3"
