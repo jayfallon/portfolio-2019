@@ -4,7 +4,7 @@ import styled from "styled-components";
 const DownloadButtonStyles = styled.div`
 	a {
 		background-color: transparent;
-		padding: 1.5rem;
+		padding: 1.5rem 1rem;
 		border: 0.1rem solid ${props => props.theme.globalText};
 		color: ${props => props.theme.globalText};
 		font-size: 1.6rem;
