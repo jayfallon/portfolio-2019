@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { initGA, logPageView } from "../utils/analytics";
+import { initGA, logPageView, logEvent } from "../utils/analytics";
 import { ThemeProvider } from "styled-components";
 
 const theme = {
