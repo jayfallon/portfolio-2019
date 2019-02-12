@@ -1,6 +1,14 @@
 import Link from "next/link";
 import Logo from "../Logo/Logo";
 import FooterStyles from "./FooterStyles";
+var ReactGA = require("react-ga");
+
+const FooterLink = props => (
+	<ReactGA.OutboundLink rel="noreferrer" eventLabel={props.label} to={props.href} target="_blank">
+		<i className={`fab ${props.faicon}`} />
+		<span>{props.title}</span>
+	</ReactGA.OutboundLink>
+);
 
 const Footer = props => (
 	<FooterStyles>
@@ -27,36 +35,36 @@ const Footer = props => (
 			<div className="footer__block social__elem">
 				<ul>
 					<li>
-						<Link href="https://www.linkedin.com/in/jayfallon/">
-							<a rel="noreferrer" target="_blank" title="LinkedIn">
-								<i className="fab fa-linkedin" />
-								<span>LinkedIn</span>
-							</a>
-						</Link>
+						<FooterLink
+							href={"https://www.linkedin.com/in/jayfallon/"}
+							label={"LinkedIn Outbound"}
+							title={"LinkedIn"}
+							faicon={"fa-linkedin"}
+						/>
 					</li>
 					<li>
-						<Link href="https://github.com/jayfallon">
-							<a rel="noreferrer" target="_blank" title="GitHub">
-								<i className="fab fa-github" />
-								<span>GitHub</span>
-							</a>
-						</Link>
+						<FooterLink
+							href={"https://github.com/jayfallon"}
+							label={"GitHub Outbound"}
+							title={"GitHub"}
+							faicon={"fa-github"}
+						/>
 					</li>
 					<li>
-						<Link href="https://medium.com/@jayfallon">
-							<a rel="noreferrer" target="_blank" title="Medium">
-								<i className="fab fa-medium-m" />
-								<span>Medium</span>
-							</a>
-						</Link>
+						<FooterLink
+							href={"https://medium.com/@jayfallon"}
+							label={"Medium Outbound"}
+							title={"Medium"}
+							faicon={"fa-medium-m"}
+						/>
 					</li>
 					<li>
-						<Link href="https://www.instagram.com/jayfallon/">
-							<a rel="noreferrer" target="_blank" title="Instagram">
-								<i className="fab fa-instagram" />
-								<span>Instagram</span>
-							</a>
-						</Link>
+						<FooterLink
+							href={"https://www.instagram.com/jayfallon/"}
+							label={"Instagram Outbound"}
+							title={"Instagram"}
+							faicon={"fa-instagram"}
+						/>
 					</li>
 				</ul>
 			</div>
