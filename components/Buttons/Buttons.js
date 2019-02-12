@@ -4,7 +4,7 @@ var ReactGA = require("react-ga");
 
 const DownloadButton = props => (
 	<DownloadButtonStyles>
-		<ReactGA.OutboundLink rel="noreferrer" eventLabel="myResume" to={props.href} target="_blank">
+		<ReactGA.OutboundLink rel="noreferrer" eventLabel={props.label} to={props.href} target="_blank">
 			{props.title} <i className="fas fa-file-pdf" />
 		</ReactGA.OutboundLink>
 	</DownloadButtonStyles>
