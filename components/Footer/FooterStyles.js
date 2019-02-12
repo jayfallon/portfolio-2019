@@ -32,7 +32,7 @@ const FooterStyles = styled.footer`
 				padding: 1rem;
 				border-right: 0.1rem solid ${props => props.theme.globalRestText};
 				border-bottom: 0.1rem solid ${props => props.theme.globalRestText};
-				color: ${props => props.theme.globalRestText};
+				color: ${props => props.theme.globalText};
 				font-size: 1.25rem;
 				text-transform: uppercase;
 				display: block;

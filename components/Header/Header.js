@@ -5,6 +5,7 @@ import HeaderStyles from "./HeaderStyles";
 import Nav from "../Nav/Nav";
 import Logo from "../Logo/Logo";
 import { DownloadButton } from "../Buttons/Buttons";
+import ReactGA from "react-ga";
 
 Router.onRouteChangeStart = () => {
 	NProgress.start();
@@ -33,6 +34,7 @@ const Header = props => (
 				<DownloadButton
 					href={"https://s3.amazonaws.com/jayfallon-portfolio-2019/pdf/jayfallon-resume-2019.pdf"}
 					title={"Download Resume"}
+					label={"myResume"}
 				/>
 			</div>
 		</div>

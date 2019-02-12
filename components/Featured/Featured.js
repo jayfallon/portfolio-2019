@@ -2,6 +2,18 @@ import Link from "next/link";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import FeaturedStyles from "./FeaturedStyles";
+var ReactGA = require("react-ga");
+
+const FeaturedLink = props => (
+	<ReactGA.OutboundLink rel="noreferrer" eventLabel={props.label} to={props.href} target="_blank">
+		{props.title}
+	</ReactGA.OutboundLink>
+);
+const FeaturedImageLink = props => (
+	<ReactGA.OutboundLink rel="noreferrer" eventLabel={props.label} to={props.href} target="_blank">
+		<img alt={props.alt} src={props.src} />
+	</ReactGA.OutboundLink>
+);
 
 const Featured = () => (
 	<>
@@ -20,22 +32,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://github.com/jayfallon/portfolio-2019">
-							<a target="_blank" rel="noopener">
-								This Site
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://github.com/jayfallon/portfolio-2019"}
+							label={"Portfolio Site"}
+							title={"This Site"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
-							<Link href="https://github.com/jayfallon/portfolio-2019">
-								<a target="_blank" rel="noopener">
-									<img
-										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/jayfallon-01.png"
-										alt="Jay Fallon's 2019 Portfolio Audit Results"
-									/>
-								</a>
-							</Link>
+							<FeaturedImageLink
+								href={"https://github.com/jayfallon/portfolio-2019"}
+								label={"Portfolio Site Image"}
+								src={"https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/jayfallon-01.png"}
+								alt={"Jay Fallon's 2019 Portfolio Audit Results"}
+							/>
 						</div>
 					</div>
 					<p>
@@ -46,67 +56,84 @@ const Featured = () => (
 					</p>
 					<p>
 						For this site I wanted to get as close to all{" "}
-						<Link href="https://developers.caffeina.com/how-to-get-a-100-lighthouse-score-with-nextjs-c2fa4d35a90b">
-							<a target="_blank" rel="noopener">
-								100's on the Chrome Audit for PWA's
-							</a>
-						</Link>{" "}
-						and I'm almost there. My site is hosted on Zeit's Now so I'm somewhat limited as to what I can
-						do from a hosting perspective in terms of performance, but I'm content for now with writing
-						accessible code and following best practices.
+						<FeaturedLink
+							href={
+								"https://developers.caffeina.com/how-to-get-a-100-lighthouse-score-with-nextjs-c2fa4d35a90b"
+							}
+							label={"Lighthouse 100"}
+							title={"100's on the Chrome Audit for PWA's"}
+						/>{" "}
+						and I'm almost there, when viewed in Incognito mode. My site is hosted on Zeit's Now so I'm
+						somewhat limited as to what I can do from a hosting perspective in terms of performance, but I'm
+						content for now with writing accessible code and following best practices.
 					</p>
 					<p>
 						The site is written using React.js, JSX, Styled Components, Next.js and it's based off of the
 						Next.js PWA Boilerplate. All code is responsive but I'm sure there'll be a device, OS or browser
 						out there that refuses to display properly so I'll have to figue that out.{" "}
-						<Link href="https://github.com/jayfallon/portfolio-2019">
-							<a target="_blank" rel="noopener">
-								The GitHub repo is here.
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://github.com/jayfallon/portfolio-2019"}
+							label={"Portfolio Site - Repo"}
+							title={"The GitHub repo is here."}
+						/>
 					</p>
 				</article>
 				<article>
 					<h4>
-						<Link href="https://sapphire-maritza.now.sh">
-							<a title="Rewards Program" target="_blank" rel="noreferrer">
-								Rewards Program
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://sapphire-maritza.now.sh"}
+							label={"Sapphire Maritza"}
+							title={"Rewards Program"}
+						/>
 					</h4>
 					<div className="featured__grid">
 						<div className="featured__grid--item">
 							<Link href="https://sapphire-maritza.now.sh">
 								<a title="Rewards Program" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-01.png" alt="Rewards Program" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-01.png"
+										alt="Rewards Program"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://sapphire-maritza.now.sh/dashboard">
 								<a title="Rewards Program" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-02.png" alt="Rewards Program" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-02.png"
+										alt="Rewards Program"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://sapphire-maritza.now.sh/submissions/submission-01">
 								<a title="Rewards Program" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-03.png" alt="Rewards Program" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-03.png"
+										alt="Rewards Program"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://sapphire-maritza.now.sh/faq">
 								<a title="Rewards Program" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-04.png" alt="Rewards Program" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-04.png"
+										alt="Rewards Program"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://sapphire-maritza.now.sh/activity01/page01">
 								<a title="Rewards Program" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-05.png" alt="Rewards Program" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/rewards-05.png"
+										alt="Rewards Program"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -124,31 +151,40 @@ const Featured = () => (
 
 				<article>
 					<h4>
-						<Link href="https://kirk-landing.now.sh/">
-							<a title="Landing Page" target="_blank" rel="noreferrer">
-								Landing Page
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://kirk-landing.now.sh/"}
+							label={"Kirk Landing Page"}
+							title={"Landing Page"}
+						/>
 					</h4>
 					<div className="featured__grid">
 						<div className="featured__grid--item">
 							<Link href="https://kirk-landing.now.sh/">
 								<a title="Landing Page" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/landing-01-01.png" alt="Landing Page" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/landing-01-01.png"
+										alt="Landing Page"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://kirk-landing.now.sh/">
 								<a title="Landing Page" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/landing-01-02.png" alt="Landing Page" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/landing-01-02.png"
+										alt="Landing Page"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://kirk-landing.now.sh/">
 								<a title="Landing Page" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/landing-01-03.png" alt="Landing Page" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/landing-01-03.png"
+										alt="Landing Page"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -162,31 +198,40 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://dr-promotions-02.now.sh/">
-							<a title="Promotions Tab" target="_blank" rel="noreferrer">
-								Promotions Tab
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://dr-promotions-02.now.sh/"}
+							label={"Promotions Tab"}
+							title={"Promotions Tab"}
+						/>
 					</h4>
 					<div className="featured__grid">
 						<div className="featured__grid--item">
 							<Link href="https://dr-promotions-02.now.sh/">
 								<a title="Promotions Tab" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-01.png" alt="Promotions Tab" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-01.png"
+										alt="Promotions Tab"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://dr-promotions-02.now.sh/">
 								<a title="Promotions Tab" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-02.png" alt="Promotions Tab" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-02.png"
+										alt="Promotions Tab"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://dr-promotions-02.now.sh/">
 								<a title="Promotions Tab" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-03.png" alt="Promotions Tab" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-03.png"
+										alt="Promotions Tab"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -203,40 +248,49 @@ const Featured = () => (
 						changes to the interface and some code re-write.
 					</p>
 					<p>
-						<Link href="https://invis.io/D3Q6W32THUN">
-							<a title="Promotions V1" rel="noopener" target="_blank">
-								The preliminary InVision sketches can be viewed here.
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://invis.io/D3Q6W32THUN/"}
+							label={"Promotions Tab Invision"}
+							title={"The preliminary InVision sketches can be viewed here."}
+						/>
 					</p>
 				</article>
 				<article>
 					<h4>
-						<Link href="https://invis.io/WUQ6W3XZAVM">
-							<a title="Order Management Dashboard" target="_blank" rel="noreferrer">
-								Order Management Dashboard
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://invis.io/WUQ6W3XZAVM"}
+							label={"Order Management Dashboard"}
+							title={"Order Management Dashboard"}
+						/>
 					</h4>
 					<div className="featured__grid">
 						<div className="featured__grid--item">
 							<Link href="https://invis.io/WUQ6W3XZAVM">
 								<a title="CTA Steps" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/oms-01.png" alt="CTA Steps" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/oms-01.png"
+										alt="CTA Steps"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://invis.io/UYQ6W5UG79P">
 								<a title="Order List Variations" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/oms-02.png" alt="Order List Variations" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/oms-02.png"
+										alt="Order List Variations"
+									/>
 								</a>
 							</Link>
 						</div>
 						<div className="featured__grid--item">
 							<Link href="https://invis.io/5XQ6W6BGSKF">
 								<a title="Add-Remove Products" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-03.png" alt="Add-Remove Products" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/promotions-03.png"
+										alt="Add-Remove Products"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -264,17 +318,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://www.cengage.com/dashboard/#/login">
-							<a title="Student Portal" target="_blank" rel="noreferrer">
-								Student Portal
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://www.cengage.com/dashboard/#/login"}
+							label={"Student Portal"}
+							title={"Student Portal"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://www.cengage.com/dashboard/#/login">
 								<a title="Student Portal" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/student-portal-lg.png" alt="Student Portal" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/student-portal-lg.png"
+										alt="Student Portal"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -288,17 +345,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://www.cengage.com/4ltr-press">
-							<a title="Learning Management System" target="_blank" rel="noreferrer">
-								Learning Management System
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://www.cengage.com/4ltr-press"}
+							label={"Learning Management System"}
+							title={"Learning Management System"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://www.cengage.com/4ltr-press">
 								<a title="Learning Management System" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/4ltr-lg.png" alt="Learning Management System" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/4ltr-lg.png"
+										alt="Learning Management System"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -313,17 +373,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://www.cengage.com/training/mindtap">
-							<a title="Learning Management Platform" target="_blank" rel="noreferrer">
-								Learning Management Platform
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://www.cengage.com/training/mindtap"}
+							label={"Learning Management Platform"}
+							title={"Learning Management Platform"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://www.cengage.com/training/mindtap">
 								<a title="Learning Management Platform" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/mindtap-lg.png" alt="Learning Management Platform" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/mindtap-lg.png"
+										alt="Learning Management Platform"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -340,17 +403,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://support.fiftythree.com/hc/en-us">
-							<a title="Support Website" target="_blank" rel="noreferrer">
-								Support Website
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://support.fiftythree.com/hc/en-us"}
+							label={"Support Website"}
+							title={"Support Website"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://support.fiftythree.com/hc/en-us">
 								<a title="Support Website" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/paper-lg.png" alt="Support Website" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/paper-lg.png"
+										alt="Support Website"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -363,17 +429,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://www.mineraltree.com/">
-							<a title="Accounts Payable Application" target="_blank" rel="noreferrer">
-								Accounts Payable Application
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://www.mineraltree.com/"}
+							label={"Accounts Payable Application"}
+							title={"Accounts Payable Application"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://www.mineraltree.com/">
 								<a title="Accounts Payable Application" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/mineral-lg.png" alt="Accounts Payable Application" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/mineral-lg.png"
+										alt="Accounts Payable Application"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -386,17 +455,20 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://www.stylemepretty.com/">
-							<a title="Wedding Inspiration" target="_blank" rel="noreferrer">
-								Wedding Inspiration
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://www.stylemepretty.com/"}
+							label={"Wedding Inspiration"}
+							title={"Wedding Inspiration"}
+						/>
 					</h4>
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://www.stylemepretty.com/">
 								<a title="Wedding Inspiration" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/wedding-lg.png" alt="Wedding Inspiration" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/wedding-lg.png"
+										alt="Wedding Inspiration"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -409,18 +481,21 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="http://www.ringboxingclub.com/">
-							<a title="Boxing Club Website" target="_blank" rel="noreferrer">
-								Boxing Club Website
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"http://www.ringboxingclub.com/"}
+							label={"Boxing Club Website"}
+							title={"Boxing Club Website"}
+						/>
 					</h4>
 
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="http://www.ringboxingclub.com/">
 								<a title="Boxing Club Website" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/boxing-lg.png" alt="Boxing Club Website" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/boxing-lg.png"
+										alt="Boxing Club Website"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -445,18 +520,21 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://jayfallon-assignment-3.now.sh/">
-							<a title="Recipe Website" target="_blank" rel="noreferrer">
-								Recipe Website
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://jayfallon-assignment-3.now.sh/"}
+							label={"Recipe Website"}
+							title={"Recipe Website"}
+						/>
 					</h4>
 
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://jayfallon-assignment-3.now.sh/">
 								<a title="Recipe Website" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/khaosoi-lg.png" alt="Landing Page 01" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/khaosoi-lg.png"
+										alt="Landing Page 01"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -477,18 +555,21 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://bradyvsworld.com/">
-							<a title="Football Fan Page" target="_blank" rel="noreferrer">
-								Football Fan Page
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://bradyvsworld.com/"}
+							label={"Football Fan Page"}
+							title={"Football Fan Page"}
+						/>
 					</h4>
 
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://bradyvsworld.com/">
 								<a title="Football Fan Page" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/brady-lg.png" alt="Football Fan Page" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/brady-lg.png"
+										alt="Football Fan Page"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -508,18 +589,21 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://haymarket-superette.com/">
-							<a title="Bitcoin Price Checker" target="_blank" rel="noreferrer">
-								Bitcoin Price Checker
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://haymarket-superette.com/"}
+							label={"Bitcoin Price Checker"}
+							title={"Bitcoin Price Checker"}
+						/>
 					</h4>
 
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://haymarket-superette.com/">
 								<a title="Bitcoin Price Checker" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/haymarket-lg.png" alt="Bitcoin Price Checker" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/haymarket-lg.png"
+										alt="Bitcoin Price Checker"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -537,18 +621,21 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://lookuptv.now.sh/">
-							<a title="TV Show Finder" target="_blank" rel="noreferrer">
-								TV Show Finder
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://lookuptv.now.sh/"}
+							label={"TV Show Finder"}
+							title={"TV Show Finder"}
+						/>
 					</h4>
 
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://lookuptv.now.sh/">
 								<a title="TV Show Finder" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/lookup-lg.png" alt="TV Show Finder" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/lookup-lg.png"
+										alt="TV Show Finder"
+									/>
 								</a>
 							</Link>
 						</div>
@@ -566,18 +653,21 @@ const Featured = () => (
 				</article>
 				<article>
 					<h4>
-						<Link href="https://gitriculum.now.sh/">
-							<a title="GitHub User Lookup" target="_blank" rel="noreferrer">
-								GitHub User Lookup
-							</a>
-						</Link>
+						<FeaturedLink
+							href={"https://gitriculum.now.sh/"}
+							label={"GitHub User Lookup"}
+							title={"GitHub User Lookup"}
+						/>
 					</h4>
 
 					<div className="featured__grid--onesie">
 						<div className="featured__grid--item">
 							<Link href="https://gitriculum.now.sh/">
 								<a title="GitHub User Lookup" target="_blank" rel="noreferrer">
-									<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/gitriculum-lg.png" alt="GitHub User Lookup" />
+									<img
+										src="https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/gitriculum-lg.png"
+										alt="GitHub User Lookup"
+									/>
 								</a>
 							</Link>
 						</div>
