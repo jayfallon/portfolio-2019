@@ -123,27 +123,45 @@ const About = () => (
 							<span>InVision</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/zeplin.png" alt="Zeplin" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/zeplin.png"
+								alt="Zeplin"
+							/>
 							<span>Zeplin</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/photoshop.png" alt="Photoshop" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/photoshop.png"
+								alt="Photoshop"
+							/>
 							<span>Photoshop</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/illustrator.png" alt="Illustrator" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/illustrator.png"
+								alt="Illustrator"
+							/>
 							<span>Illustrator</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/premiere.png" alt="Premiere Pro" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/premiere.png"
+								alt="Premiere Pro"
+							/>
 							<span>Premiere Pro</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/after-effects.png" alt="After Effects" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/after-effects.png"
+								alt="After Effects"
+							/>
 							<span>After Effects</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/audition.png" alt="Audition" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/audition.png"
+								alt="Audition"
+							/>
 							<span>Audition</span>
 						</div>
 					</div>
@@ -193,16 +211,57 @@ const About = () => (
 
 					<div className="about__grid">
 						<div>
+							<i className="fab fa-react" />
+							<span>React</span>
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jsx.png" alt="JSX" />
+							<span>JSX</span>
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jest.png" alt="Jest" />
+							<span>Jest</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/nextjs-black-logo.svg"
+								width="75"
+								alt="Next.js"
+							/>
+							<span>Next.js</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/firebase.png"
+								alt="Firebase"
+							/>
+							<span>Firebase</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/apollo.png"
+								alt="Apollo"
+							/>
+							<span>Apollo</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/graphql.png"
+								alt="GraphQL"
+							/>
+							<span>GraphQL</span>
+						</div>
+						<div>
+							<i className="fas fa-hockey-mask" />
+							<span>JSON</span>
+						</div>
+						<div>
 							<i className="fab fa-markdown" />
 							<span>Markdown</span>
 						</div>
 						<div>
 							<i className="fab fa-python" />
 							<span>Python</span>
-						</div>
-						<div>
-							<i className="fab fa-react" />
-							<span>React</span>
 						</div>
 						<div>
 							<i className="fas fa-meteor" />
@@ -221,19 +280,18 @@ const About = () => (
 							<span>Angular</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/vs-code.png" alt="VS Code" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/vs-code.png"
+								alt="VS Code"
+							/>
 							<span>VS Code</span>
 						</div>
+
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/graphql.png" alt="GraphQL" />
-							<span>GraphQL</span>
-						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/apollo.png" alt="Apollo" />
-							<span>Apollo</span>
-						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/typescript.png" alt="TypeScript" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/typescript.png"
+								alt="TypeScript"
+							/>
 							<span>TypeScript</span>
 						</div>
 						<div>
@@ -246,40 +304,50 @@ const About = () => (
 							<span>Ruby</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/pug.png" alt="Pug Templates" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/pug.png"
+								alt="Pug Templates"
+							/>
 							<span>Pug</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/gatsby.png" alt="gatsby.js" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/gatsby.png"
+								alt="gatsby.js"
+							/>
 							<span>Gatsby.js</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/handlebars.png" alt="Handlebars" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/handlebars.png"
+								alt="Handlebars"
+							/>
 							<span>Handlebars</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/postman.png" alt="Postman" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/postman.png"
+								alt="Postman"
+							/>
 							<span>Postman</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/spring.png" alt="Spring" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/spring.png"
+								alt="Spring"
+							/>
 							<span>Spring</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/mongo.png" alt="MongoDB" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/mongo.png"
+								alt="MongoDB"
+							/>
 							<span>MongoDB</span>
 						</div>
 						<div>
 							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/mysql.png" alt="MySQL" />
 							<span>MySQL</span>
-						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/firebase.png" alt="Firebase" />
-							<span>Firebase</span>
-						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/nextjs-black-logo.svg" width="75" alt="Next.js" />
-							<span>Next.js</span>
 						</div>
 
 						<div>
@@ -291,24 +359,19 @@ const About = () => (
 							<span>Rails</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/express.png" alt="Express" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/express.png"
+								alt="Express"
+							/>
 							<span>Express</span>
 						</div>
+
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jsx.png" alt="JSX" />
-							<span>JSX</span>
-						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jquery.png" alt="jQuery" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jquery.png"
+								alt="jQuery"
+							/>
 							<span>jQuery</span>
-						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/travis.png" alt="Travis CI" />
-							<span>Travis CI</span>
-						</div>
-						<div>
-							<i className="fas fa-hockey-mask" />
-							<span>JSON</span>
 						</div>
 					</div>
 
@@ -328,7 +391,10 @@ const About = () => (
 					</p>
 					<div className="about__grid">
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/stylus.png" alt="Stylus" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/stylus.png"
+								alt="Stylus"
+							/>
 							<span>Stylus</span>
 						</div>
 						<div>
@@ -345,11 +411,17 @@ const About = () => (
 						</div>
 
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/styled-components.png" alt="Styled Components" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/styled-components.png"
+								alt="Styled Components"
+							/>
 							<span>Styled Components</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/postcss.png" alt="PostCSS" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/postcss.png"
+								alt="PostCSS"
+							/>
 							<span>PostCSS</span>
 						</div>
 					</div>
@@ -374,12 +446,22 @@ const About = () => (
 							<span>Gulp</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/webpack.png" alt="Webpack" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/webpack.png"
+								alt="Webpack"
+							/>
 							<span>Webpack</span>
 						</div>
 						<div>
 							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/babel.png" alt="Babel" />
 							<span>Babel</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/travis.png"
+								alt="Travis CI"
+							/>
+							<span>Travis CI</span>
 						</div>
 					</div>
 					<p>
@@ -409,15 +491,25 @@ const About = () => (
 							<span>Docker</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/heroku.png" alt="Heroku" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/heroku.png"
+								alt="Heroku"
+							/>
 							<span>Heroku</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/firebase.png" alt="Firebase" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/firebase.png"
+								alt="Firebase"
+							/>
 							<span>Firebase</span>
 						</div>
 						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/now-black.svg" height="60" alt="Zeit Now" />
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/now-black.svg"
+								height="60"
+								alt="Zeit Now"
+							/>
 							<span>Zeit Now</span>
 						</div>
 						<div>
