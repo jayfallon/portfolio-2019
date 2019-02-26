@@ -3,7 +3,7 @@ import { ServerStyleSheet } from "styled-components";
 
 export const title = "Jay Fallon | UX Engineer";
 const description = "My name is Jay Fallon and I design & develop for the web.";
-const url = `https://next-pwa-boilerplate.now.sh`;
+const url = `https://jayfallon.net`;
 const thumbnail = `${url}/static/graphics/thumbnail.png`;
 
 export default class MyDocument extends Document {

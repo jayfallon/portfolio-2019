@@ -303,6 +303,10 @@ const About = () => (
 							<span>jQuery</span>
 						</div>
 						<div>
+							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/travis.png" alt="Travis CI" />
+							<span>Travis CI</span>
+						</div>
+						<div>
 							<i className="fas fa-hockey-mask" />
 							<span>JSON</span>
 						</div>
