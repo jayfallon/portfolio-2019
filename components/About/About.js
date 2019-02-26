@@ -211,16 +211,57 @@ const About = () => (
 
 					<div className="about__grid">
 						<div>
+							<i className="fab fa-react" />
+							<span>React</span>
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jsx.png" alt="JSX" />
+							<span>JSX</span>
+						</div>
+						<div>
+							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jest.png" alt="Jest" />
+							<span>Jest</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/nextjs-black-logo.svg"
+								width="75"
+								alt="Next.js"
+							/>
+							<span>Next.js</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/firebase.png"
+								alt="Firebase"
+							/>
+							<span>Firebase</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/apollo.png"
+								alt="Apollo"
+							/>
+							<span>Apollo</span>
+						</div>
+						<div>
+							<img
+								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/graphql.png"
+								alt="GraphQL"
+							/>
+							<span>GraphQL</span>
+						</div>
+						<div>
+							<i className="fas fa-hockey-mask" />
+							<span>JSON</span>
+						</div>
+						<div>
 							<i className="fab fa-markdown" />
 							<span>Markdown</span>
 						</div>
 						<div>
 							<i className="fab fa-python" />
 							<span>Python</span>
-						</div>
-						<div>
-							<i className="fab fa-react" />
-							<span>React</span>
 						</div>
 						<div>
 							<i className="fas fa-meteor" />
@@ -245,20 +286,7 @@ const About = () => (
 							/>
 							<span>VS Code</span>
 						</div>
-						<div>
-							<img
-								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/graphql.png"
-								alt="GraphQL"
-							/>
-							<span>GraphQL</span>
-						</div>
-						<div>
-							<img
-								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/apollo.png"
-								alt="Apollo"
-							/>
-							<span>Apollo</span>
-						</div>
+
 						<div>
 							<img
 								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/typescript.png"
@@ -321,21 +349,6 @@ const About = () => (
 							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/mysql.png" alt="MySQL" />
 							<span>MySQL</span>
 						</div>
-						<div>
-							<img
-								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/firebase.png"
-								alt="Firebase"
-							/>
-							<span>Firebase</span>
-						</div>
-						<div>
-							<img
-								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/nextjs-black-logo.svg"
-								width="75"
-								alt="Next.js"
-							/>
-							<span>Next.js</span>
-						</div>
 
 						<div>
 							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/d3.png" alt="D3" />
@@ -352,20 +365,13 @@ const About = () => (
 							/>
 							<span>Express</span>
 						</div>
-						<div>
-							<img src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jsx.png" alt="JSX" />
-							<span>JSX</span>
-						</div>
+
 						<div>
 							<img
 								src="https://s3.amazonaws.com/jayfallon-portfolio-2019/logos/jquery.png"
 								alt="jQuery"
 							/>
 							<span>jQuery</span>
-						</div>
-						<div>
-							<i className="fas fa-hockey-mask" />
-							<span>JSON</span>
 						</div>
 					</div>
 
