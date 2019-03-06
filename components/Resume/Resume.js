@@ -21,7 +21,7 @@ const Resume = () => (
 				<h2>Technical Skills</h2>
 				<p>
 					User experience design, interaction design, information architecture, usability testing, front-end
-					development to include modern CSS, HTML, React (React, React Native, Next.js, Gatsby.js), AngularJS,
+					development to include modern CSS, HTML, JavaScript (React, React Native, Next.js, Gatsby.js), AngularJS,
 					GraphQL, Node/Express, JSX, Jade/Pug, Styled Components, PostCSS, Sass/Scss, LESS, Stylus, Git,
 					responsive design, Python, Ruby/Rails, Java-based frameworks; audio-visual creation and design to
 					include Sketch, InVision, OmniGraffle, Framer, Adobe Premiere, After Effects, Illustrator, Photoshop
