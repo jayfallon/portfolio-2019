@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"name": "jayfallon-portfolio-2019",
-	"alias": ["jayfallon.net", "www.jayfallon.net"],
+	"alias": ["jayfallon.net", "www.jayfallon.net", "jayfallon.dev", "www.jayfallon.dev"],
 	"routes": [
 		{
 			"src": "^/service-worker.js$",

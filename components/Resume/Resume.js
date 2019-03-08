@@ -21,11 +21,11 @@ const Resume = () => (
 				<h2>Technical Skills</h2>
 				<p>
 					User experience design, interaction design, information architecture, usability testing, front-end
-					development to include modern CSS, HTML, JavaScript (React, React Native, Next.js, Gatsby.js), AngularJS,
-					GraphQL, Node/Express, JSX, Jade/Pug, Styled Components, PostCSS, Sass/Scss, LESS, Stylus, Git,
-					responsive design, Python, Ruby/Rails, Java-based frameworks; audio-visual creation and design to
-					include Sketch, InVision, OmniGraffle, Framer, Adobe Premiere, After Effects, Illustrator, Photoshop
-					and Audition. Agile methodologies. Fluent in English and Spanish.
+					development to include modern CSS, HTML, JavaScript (React, React Native, Next.js, Gatsby.js),
+					AngularJS, GraphQL, Node/Express, JSX, Jade/Pug, Styled Components, PostCSS, Sass/Scss, LESS,
+					Stylus, Git, responsive design, Python, Ruby/Rails, Java-based frameworks; audio-visual creation and
+					design to include Sketch, InVision, OmniGraffle, Framer, Adobe Premiere, After Effects, Illustrator,
+					Photoshop and Audition. Agile methodologies. Fluent in English and Spanish.
 				</p>
 			</section>
 			<section>
@@ -61,7 +61,7 @@ const Resume = () => (
 						<span>Syrinx Consulting</span>
 						<span>Boston, MA</span>
 					</h3>
-					<p className="period">June 2018 - Present</p>
+					<p className="period">June 2018 - March 2019</p>
 					<p className="title">User Experience Designer and Developer.</p>
 					<p className="description">
 						As a contracted UI/UX developer for a Syrinx client, Jay is responsible for providing
