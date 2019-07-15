@@ -35,7 +35,7 @@ const Resume = () => (
 						<span>Harvard University Extension School</span>
 						<span>Cambridge, MA</span>
 					</h3>
-					<p className="period">Master of Liberal Arts, Digital Design, expected May 2019</p>
+					<p className="period">Master of Liberal Arts, Digital Design, May 2019</p>
 					<p className="description">
 						Concentration in Digital Design, with coursework in information systems, software development,
 						instructional design and digital production.
@@ -58,11 +58,22 @@ const Resume = () => (
 				<h2>Details Of Experience</h2>
 				<article>
 					<h3>
+						<span>State Street Global Advisors, Inc.</span>
+						<span>Boston, MA</span>
+					</h3>
+					<p className="period">April 2019 - Present</p>
+					<p className="title">Senior User Experience Designer and Developer.</p>
+					<p className="description">
+					As a UX designer and developer, Jay works to support SSgA’s global digital team in its efforts to implement digital transformation initiatives by providing design and development deliverables, consultation and oversight as they migrate their content offerings and lead generation programs to the latest edition Adobe Experience Manager, complete with responsive design and analytical integration.
+					</p>
+				</article>
+				<article>
+					<h3>
 						<span>Syrinx Consulting</span>
 						<span>Boston, MA</span>
 					</h3>
 					<p className="period">June 2018 - March 2019</p>
-					<p className="title">User Experience Designer and Developer.</p>
+					<p className="title">Senior User Experience Designer and Developer.</p>
 					<p className="description">
 						As a contracted UI/UX developer for a Syrinx client, Jay is responsible for providing
 						leadership, technical direction, mentoring, training and support for a fifty-person research
