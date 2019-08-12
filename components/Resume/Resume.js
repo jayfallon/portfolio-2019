@@ -61,7 +61,7 @@ const Resume = () => (
 						<span>State Street Global Advisors, Inc.</span>
 						<span>Boston, MA</span>
 					</h3>
-					<p className="period">April 2019 - Present</p>
+					<p className="period">April 2019 - July 2019</p>
 					<p className="title">Senior User Experience Designer and Developer.</p>
 					<p className="description">
 					As a UX designer and developer, Jay works to support SSgA’s global digital team in its efforts to implement digital transformation initiatives by providing design and development deliverables, consultation and oversight as they migrate their content offerings and lead generation programs to the latest edition Adobe Experience Manager, complete with responsive design and analytical integration.
