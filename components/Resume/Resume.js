@@ -64,7 +64,7 @@ const Resume = () => (
 					<p className="period">April 2019 - July 2019</p>
 					<p className="title">Senior User Experience Designer and Developer.</p>
 					<p className="description">
-					As a UX designer and developer, Jay works to support SSgA’s global digital team in its efforts to implement digital transformation initiatives by providing design and development deliverables, consultation and oversight as they migrate their content offerings and lead generation programs to the latest edition Adobe Experience Manager, complete with responsive design and analytical integration.
+					As a UX designer and developer, Jay worked to support SSgA’s global digital team in its efforts to implement digital transformation initiatives by providing design and development deliverables, consultation and oversight as they migrated their content offerings and lead generation programs to the latest edition Adobe Experience Manager, complete with responsive design and analytical integration.
 					</p>
 				</article>
 				<article>
@@ -75,10 +75,10 @@ const Resume = () => (
 					<p className="period">June 2018 - March 2019</p>
 					<p className="title">Senior User Experience Designer and Developer.</p>
 					<p className="description">
-						As a contracted UI/UX developer for a Syrinx client, Jay is responsible for providing
+						As a contracted UI/UX developer for a Syrinx client, Jay was responsible for providing
 						leadership, technical direction, mentoring, training and support for a fifty-person research
 						department focused on enhancing the client’s future capabilities in personalized customer
-						experience. In this role, Jay provides not only daily deliverable work but also works across
+						experience. In this role, Jay provided not only daily deliverable work but also worked across
 						teams and disciplines to design, test and provide tangible results for further iterations via
 						web applications, landing pages and emails.
 					</p>
