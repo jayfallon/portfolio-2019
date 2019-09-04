@@ -33,6 +33,42 @@ const Featured = () => (
 				<article>
 					<h4>
 						<FeaturedLink
+							href={"https://gameoflife.jayfallon.dev/"}
+							label={"Conway's Game of Life"}
+							title={"Conway's Game of Life using React"}
+						/>
+					</h4>
+					<div className="featured__grid--onesie">
+						<div className="featured__grid--item">
+							<FeaturedImageLink
+								href={"https://gameoflife.jayfallon.dev/"}
+								label={"Conway's Game of Life Image"}
+								src={"https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/gameoflife-01.png"}
+								alt={"Conway's Game of Life"}
+							/>
+						</div>
+					</div>
+					<p>
+					I've found it interesting to explore React concepts through building games as it changes the context between the traditional crud exercise into something quirky yet insightful, exposing techniques that otherwise I wouldn't use in a day-to-day project. This particular one is Conway's Game of Life, which is used to explain programming concepts to people like myself.
+					</p>
+					<p>
+						This app is written using React.js and it's based off of a tutorial by <FeaturedLink
+							href={
+								"https://www.youtube.com/watch?v=PM0_Er3SvFQ"
+							}
+							label={"React Project Tutorial - Game of Life"}
+							title={"Beau Carnes"}
+						/> that I found on YouTube, the Great Time Waster.{" "}
+						<FeaturedLink
+							href={"https://github.com/jayfallon/gameoflife"}
+							label={"Conway's Game of Life - Repo"}
+							title={"The GitHub repo is here."}
+						/>
+					</p>
+				</article>
+				<article>
+					<h4>
+						<FeaturedLink
 							href={"https://tetris.jayfallon.dev/"}
 							label={"Tetris Game"}
 							title={"Web-based Tetris Game using React Hooks"}
@@ -58,7 +94,7 @@ const Featured = () => (
 						/>{" "}, I was able to do that very thing. A lot the gaming stuff was over my head but otherwise it was a very interesting tutorial and day-long project.
 					</p>
 					<p>
-						The site is written using React.js, JSX, Next.js and it's based off of the
+						The app is written using React.js, JSX, Next.js and it's based off of the
 						the wonderful tutorial mentioned above. Since it's keyboard based there really isn't a mobile version and I don't have a keyboard for my seven-year old iPad, so testing and optimizing it would be a challenge.{" "}
 						<FeaturedLink
 							href={"https://github.com/jayfallon/react-tetris"}

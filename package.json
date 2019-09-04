@@ -6,7 +6,8 @@
   "scripts": {
     "build": "next build",
     "export": "npm run build && next export",
-    "deploy": "now && now alias",
+    "deploy-dev": "now",
+    "deploy-prod": "now --prod",
     "dev": "next",
     "start": "next start"
   },
