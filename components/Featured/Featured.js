@@ -33,6 +33,43 @@ const Featured = () => (
 				<article>
 					<h4>
 						<FeaturedLink
+							href={"https://tetris.jayfallon.dev/"}
+							label={"Tetris Game"}
+							title={"Web-based Tetris Game using React Hooks"}
+						/>
+					</h4>
+					<div className="featured__grid--onesie">
+						<div className="featured__grid--item">
+							<FeaturedImageLink
+								href={"https://tetris.jayfallon.dev/"}
+								label={"Tetris Game Image"}
+								src={"https://s3.amazonaws.com/jayfallon-portfolio-2019/featured/tetris-01.png"}
+								alt={"Web-based Tetris in React using Hooks"}
+							/>
+						</div>
+					</div>
+					<p>
+					Would you like to play a game? Of course you would! Why not play a web-based (sorry, no mobile) version of a longtime nemesis of mine: Tetris. I was never good at it back in th' day. Now, I'm pretty much an expert because I can control the speed and it doesn't cost any money to play. The whole point was to learn React Hooks and with the help of <FeaturedLink
+							href={
+								"https://www.youtube.com/watch?v=ZGOaCxX8HIU"
+							}
+							label={"How to Build Tetris in React - GameDev Tutorial (with React Hooks!)"}
+							title={"Thomas Weibenfalk"}
+						/>{" "}, I was able to do that very thing. A lot the gaming stuff was over my head but otherwise it was a very interesting tutorial and day-long project.
+					</p>
+					<p>
+						The site is written using React.js, JSX, Next.js and it's based off of the
+						the wonderful tutorial mentioned above. Since it's keyboard based there really isn't a mobile version and I don't have a keyboard for my seven-year old iPad, so testing and optimizing it would be a challenge.{" "}
+						<FeaturedLink
+							href={"https://github.com/jayfallon/react-tetris"}
+							label={"Web Tetris - Repo"}
+							title={"The GitHub repo is here."}
+						/>
+					</p>
+				</article>
+				<article>
+					<h4>
+						<FeaturedLink
 							href={"https://github.com/jayfallon/portfolio-2019"}
 							label={"Portfolio Site"}
 							title={"This Site"}
