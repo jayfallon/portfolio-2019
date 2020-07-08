@@ -8,37 +8,39 @@ import { DownloadButton } from "../Buttons/Buttons";
 import ReactGA from "react-ga";
 
 Router.onRouteChangeStart = () => {
-	NProgress.start();
+  NProgress.start();
 };
 Router.onRouteChangeComplete = () => {
-	NProgress.done();
+  NProgress.done();
 };
 Router.onRouteChangeError = () => {
-	NProgress.done();
+  NProgress.done();
 };
 
-const Header = props => (
-	<HeaderStyles>
-		<a name="top" />
-		<div className="header__inner">
-			<div className="header__title logo__title">Brand:</div>
-			<div className="header__title nav__title">Navigation:</div>
-			<div className="header__title utilities__title">Utilities:</div>
-			<div className="header__block logo__eleme">
-				<Logo />
-			</div>
-			<div className="header__block nav__elem">
-				<Nav />
-			</div>
-			<div className="header__block utilities__elem">
-				<DownloadButton
-					href={"https://s3.amazonaws.com/jayfallon-portfolio-2019/pdf/jayfallon-resume-2019.pdf"}
-					title={"Download Resume"}
-					label={"myResume"}
-				/>
-			</div>
-		</div>
-	</HeaderStyles>
+const Header = (props) => (
+  <HeaderStyles>
+    <a name="top" />
+    <div className="header__inner">
+      <div className="header__title logo__title">Brand:</div>
+      <div className="header__title nav__title">Navigation:</div>
+      <div className="header__title utilities__title">Utilities:</div>
+      <div className="header__block logo__eleme">
+        <Logo />
+      </div>
+      <div className="header__block nav__elem">
+        <Nav />
+      </div>
+      <div className="header__block utilities__elem">
+        <DownloadButton
+          href={
+            "https://jayfallon-portfolio-2020.s3.amazonaws.com/jayfallon-resume-2020.pdf"
+          }
+          title={"Download Resume"}
+          label={"myResume"}
+        />
+      </div>
+    </div>
+  </HeaderStyles>
 );
 
 export default Header;
